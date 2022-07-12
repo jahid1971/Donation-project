@@ -1,0 +1,187 @@
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  margin: 0 ;
+ 
+}
+section{
+  margin: 80px;
+}
+/* div{
+  margin: 90px 0;
+} */
+/* section{
+  margin: 35px 25px;
+} */
+h1{
+  font-size: 60px;
+}
+p{
+  font-size: 30px;
+}
+h3{
+  font-size: 45px;
+}
+#headline-font{
+    font-size: 70px;
+    color: white;
+}
+.header-description{
+    color:white;
+    font-size: 25px;
+    
+}
+.header-backround{
+  padding: 5px ;
+    margin: 0 25px;
+    background-image:linear-gradient(to top,black,transparent), url(images/donation5.jpg);
+    background-size: 100% 800px;
+    /* position: absolute; */
+  width: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+}
+.header-element{
+  display: flex;
+  flex-direction: column;
+  margin: 10% 25%;
+  justify-content: center;
+  text-align: center;
+}
+
+.flex-center{
+  display: flex;
+  flex-direction: column;
+  margin: 0 25%;
+  justify-content: center;
+  text-align: center;
+}
+a{
+  color: white;
+  font-size: x-large;
+  text-decoration: none;
+  background-color: rgb(236, 92, 67);
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin: 50px 0px;
+
+}
+
+[target="_blank"] {
+  width: 150px;
+  align-items: center;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+}
+#donate-div2{
+  display: flex;
+  justify-content: center;
+}
+#donate-div1{
+  display: flex;
+  flex-direction: column;
+  margin: 0 25%;
+  justify-content: center;
+  text-align: center;
+}
+.donate-amount{
+   color: rgb(75, 74, 74);
+   margin: 20px  20px;
+   size: 150px 150px;
+   padding: 20px 10px;
+   font-size: 40px;
+} 
+.donate-200{
+  color: tomato;
+  background-color: rgb(247, 189, 179);
+  border: tomato solid;
+  border-radius: 5px;
+} 
+.donate-form{
+  display: flex;
+  flex-direction: column;
+  margin: 4% 25%;
+  justify-content: center;
+  text-align: center;
+  /* width: 700px; */
+}
+input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: outset;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  width: 700px;
+}
+.boxes{margin: 0 10%;
+  display: flex;
+}
+.box-area{
+  margin: 10px 20px;
+  padding: 20px 20px;
+}
+.food-box{
+  background-color: antiquewhite;
+}
+.shelter-box{
+  background-color: rgb(119, 136, 94)
+}
+.education-box{
+  background-color: rgb(243, 172, 159);
+}
+
+footer{
+  background-color: black;
+  text-align: center;
+}
+#footer-heading{
+  color: rgb(212, 39, 39);
+  font-style: italic;
+  font-size: 45px;
+  padding : 30px 0 0;
+  
+}
+.thanks-giving{
+  display: flex;
+}
+.half{
+  width: 50%;
+}
+.half img{
+  width: 90%;
+}
+.last-form{ 
+  width: 800px;
+  height: 200px;
+  padding: auto;
+  background-color: rgb(248, 210, 159);
+  text-align: center;
+  justify-content: center;
+}
+[placeholder="Email"]{
+  padding: 10px;
+  font-size: 20px;
+  width: 300px;
+}
+[value="subscribe"]{
+  margin-left: none;
+   width: 170px;
+   color: white;
+   background-color: tomato;
+   padding: 10px;
+   font-size: 20px;
+   border-radius: 5px;
+}
+#footer-element{
+  color:white;
+  padding: 0 0 30px;
+
+  
+}
+
+
+
+
+
