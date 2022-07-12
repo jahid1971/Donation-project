@@ -17,7 +17,7 @@ h1{
   color: rgb(32, 31, 31);
 }
 p{
-  font-size: 25px;
+  font-size: 23px;
   font-weight: 300;
   color: rgb(104, 101, 101);
 }
@@ -139,17 +139,6 @@ input {
   background-color: rgb(245, 204, 197);
 }
 
-footer{
-  background-color: black;
-  text-align: center;
-}
-#footer-heading{
-  color: rgb(212, 39, 39);
-  font-style: italic;
-  font-size: 45px;
-  padding : 30px 0 0;
-  
-}
 .thanks-giving{
   display: flex;
 }
@@ -173,10 +162,10 @@ footer{
   width: 90%;
 }
 .last-form{ 
-  width: 800px;
-  height: 200px;
+  width: 650px;
+  height: 150px;
   padding: auto;
-  background-color: rgb(248, 210, 159);
+  background-color: rgb(248, 229, 203);
   text-align: center;
   justify-content: center;
 }
@@ -193,6 +182,17 @@ footer{
    padding: 10px;
    font-size: 20px;
    border-radius: 5px;
+}
+footer{
+  background-color: rgb(27, 25, 25);
+  text-align: center;
+}
+#footer-heading{
+  color: rgb(212, 39, 39);
+  font-style: italic;
+  font-size: 45px;
+  padding : 30px 0 0;
+  
 }
 #footer-element{
   color:white;
