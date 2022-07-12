@@ -14,20 +14,22 @@ section{
 } */
 h1{
   font-size: 50px;
+  color: rgb(32, 31, 31);
 }
 p{
   font-size: 25px;
-  color: rgb(46, 44, 44);
+  font-weight: 300;
+  color: rgb(104, 101, 101);
 }
 h3{
   font-size: 35px;
 }
 #headline-font{
-    font-size: 70px;
+    font-size: 75px;
     color: white;
 }
 .header-description{
-    color:white;
+    color:rgb(221, 211, 211);
     font-size: 25px;
     
 }
@@ -123,6 +125,7 @@ input {
   display: flex;
 }
 .box-area{
+  width: 30%;
   margin: 10px 20px;
   padding: 20px 20px;
 }
@@ -130,10 +133,10 @@ input {
   background-color: antiquewhite;
 }
 .shelter-box{
-  background-color: rgb(119, 136, 94)
+  background-color: rgb(203, 219, 177)
 }
 .education-box{
-  background-color: rgb(243, 172, 159);
+  background-color: rgb(245, 204, 197);
 }
 
 footer{
